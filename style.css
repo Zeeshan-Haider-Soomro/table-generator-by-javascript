@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+    background-image: url(images/abstract-paper-colorful-background-with-memphis-papercut-style-and-pastel-color-for-wallpaper-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* justify-content: center; */
+}
+.container{
+    background-color: #fc9a09;
+    background-image: url(images/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* height: 50vh; */
+    /* border-radius: 20px; */
+}
+.header2{
+    /* border: 2px solid green; */
+    /* border-radius: 20px; */
+    height: 300px;
+    overflow: auto;
+    width: 300px;
+    /* width: 300px; */
+}
+@media only screen and (max-width:550px){
+   .container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .header2{
+    margin-top: 20px;
+   }
+}
+#table{
+    color: white;
+}
+.footer{
+    flex-wrap: nowrap;
+}
